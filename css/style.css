@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'PT-Sans-Reg';
-    src: url('../fonts/subset-PTSans-Regular.eot');
-    src: url('../fonts/subset-PTSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/subset-PTSans-Regular.woff2') format('woff2'),
-        url('../fonts/subset-PTSans-Regular.woff') format('woff'),
-        url('../fonts/subset-PTSans-Regular.ttf') format('truetype'),
-        url('../fonts/subset-PTSans-Regular.svg#PTSans-Regular') format('svg');
+    font-family: 'PT Sans';
+    src: url('../fonts/PTSans-Regular.eot');
+    src: url('../fonts/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PTSans-Regular.woff2') format('woff2'),
+        url('../fonts/PTSans-Regular.woff') format('woff'),
+        url('../fonts/PTSans-Regular.ttf') format('truetype'),
+        url('../fonts/PTSans-Regular.svg#PTSans-Regular') format('svg');
     font-weight: 400;
 }
 @font-face {
@@ -41,7 +41,7 @@
     font-style: italic;
 }
 body {
-    font-family: 'PT-Sans-Reg', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -58,6 +58,7 @@ body {
 }
 .header {
     padding: 37px 0 25px 0;
+    background-color: #ffffff;
 }
 .header-title {
     text-align: center;
@@ -87,9 +88,8 @@ body {
     justify-content: space-between;
 }
 .header-link {
-    font-size: 15px;
-    line-height: 20px;
-     font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
     text-decoration: none;
     color: #262626;
     text-transform:uppercase;
